@@ -4,7 +4,6 @@ Climate Region Clustering &amp; ET Simulation: ML Algorithms with Earth Observat
 Hydrological processes and climate patterns play a crucial role in water resource management and planning. In this project, machine learning is used in hydrology to analyze and interpret water-related data. Clustering techniques are used to group similar hydrologic variables to discover potential patterns and classifications; regression analysis is used to establish relationships between hydrologic variables and to make predictions or estimates based on known data.
 This also focuses on the application of machine learning techniques in hydrology, specifically clustering climate regions and simulating evapotranspiration (ET) using Earth observation data. The study area is California, USA. Through clustering analysis, aim to identify distinct climate regions based on precipitation and air temperature. Regression analysis is then performed to simulate ET rates using machine learning algorithms.
 
-
 2.Clustering
 Clustering analysis is an unsupervised learning method and is basically done to find the subgroups of samples based on features. In this project, two different clustering algorithms are used to investigate the structure of data with clustering in the given dataset.
 Data Acquisition	
