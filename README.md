@@ -9,7 +9,8 @@ Clustering analysis is an unsupervised learning method and is basically done to 
 Data Acquisition	
 The climate data for the study area was obtained from Google Earth Engine, specifically the ERA5 Land Monthly product, within the time frame of 2010 with a resolution of 0.1 degrees. The dataset contains monthly information on precipitation and air temperature covering California, USA.
 
-<img width="457" alt="image" src="https://github.com/clpa123/ML-Algorithms-with-Earth-Observation-Data/assets/107925461/b5935218-8941-4420-897c-95423d8c865b">
+![01ppt_temp](https://github.com/clpa123/ML-Algorithms-with-Earth-Observation-Data/assets/107925461/2d4fdf6c-e63c-453e-81fb-99cab7da79a5)
+
 
 Figure 1: The plots depict the variation in temperature and precipitation pixels within the given study area.
 
@@ -17,17 +18,18 @@ Figure 1: The plots depict the variation in temperature and precipitation pixels
 a)K-means Clustering 
 b) Mini-Batch K-means Clustering
 
-<img width="344" alt="image" src="https://github.com/clpa123/ML-Algorithms-with-Earth-Observation-Data/assets/107925461/5260d965-c801-431e-adc6-290c86256f9b">
+
+![5](https://github.com/clpa123/ML-Algorithms-with-Earth-Observation-Data/assets/107925461/477e7a35-0565-4c69-8653-390ec5181e67)
 
 Figure 2: The plot illustrates the elbow method, depicting the relationship between sum of squared error ( SSE) and the number of clusters(K).
 
 
-<img width="413" alt="image" src="https://github.com/clpa123/ML-Algorithms-with-Earth-Observation-Data/assets/107925461/f7a9aea4-76ce-454d-b75c-be1849547f44">
+![2](https://github.com/clpa123/ML-Algorithms-with-Earth-Observation-Data/assets/107925461/8aa3ba2d-af70-494a-b12f-75771f99b05f)
 
 Figure 2a: Clustering with k=3 (left: K-means, right: Mini-Batch K-means)
 
-<img width="407" alt="image" src="https://github.com/clpa123/ML-Algorithms-with-Earth-Observation-Data/assets/107925461/1dcbc587-8571-4502-bf40-f509e3f4bd43">
 
+![3](https://github.com/clpa123/ML-Algorithms-with-Earth-Observation-Data/assets/107925461/3f6a9c66-ae1c-44ec-9273-749acf09ce33)
 Figure 2b: Clustering with k=6 (left: K-means, right: Mini-Batch K-means)
 
 Regression
@@ -39,8 +41,7 @@ Data Acquisition
 For data processing, the essentials steps in preparing data for regression analysis were acquired from FLUX dataset and Google Earth Engine (GEE).  FLUX datasets consist data  from five stations  with various time frame and precipitation and temperature data were downloaded from the Google Earth Engine (GEE). Processing further includes handling of missing values(-9999) and splitting the data into training and testing sets. The whole dataset is prepared after concatenating the FLUX variables such as  Incoming shortwave(Wm-2), incoming longwave radiation (Wm-2), pressure(kPa), wind speed(m/s), vapor pressure deficit(hpa) andlatent heat flux(lh)   with GEE variables i.e temperature and precipitation. 
 
 
-<img width="452" alt="image" src="https://github.com/clpa123/ML-Algorithms-with-Earth-Observation-Data/assets/107925461/7760333c-1c77-4d2c-bb9b-ffd2799344a2">
-
+![4](https://github.com/clpa123/ML-Algorithms-with-Earth-Observation-Data/assets/107925461/54e5dee5-dbc4-4485-b2be-3f7f0c9a7077)
 Figure 3: The plot depicts the relationship between the target variable, latent heat, along the x-axis, and the independent variables represented on the y-axis.
 
 
